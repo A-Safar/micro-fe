@@ -1,0 +1,27 @@
+.feature1-container {
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.feature1-container h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+.feature1-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.feature1-container button:hover {
+  background-color: #0056b3;
+}

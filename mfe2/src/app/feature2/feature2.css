@@ -1,0 +1,38 @@
+.feature2-container {
+  padding: 20px;
+  border: 2px solid #28a745;
+  border-radius: 8px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.feature2-container h2 {
+  color: #28a745;
+  margin-bottom: 15px;
+}
+
+.counter {
+  margin-top: 20px;
+}
+
+.counter p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.counter button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.counter button:hover {
+  background-color: #1e7e34;
+}

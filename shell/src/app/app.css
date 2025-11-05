@@ -1,0 +1,85 @@
+.shell-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shell-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.shell-header h1 {
+  margin: 0 0 20px 0;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.shell-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.shell-nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.shell-nav a:hover {
+  border-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.shell-nav a.active {
+  background-color: white;
+  color: #667eea;
+  border-color: white;
+}
+
+.shell-main {
+  flex: 1;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.shell-footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.shell-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .shell-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .shell-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .shell-main {
+    padding: 20px 10px;
+  }
+}
